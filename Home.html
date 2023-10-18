@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My YouTube</title>
+    <style>
+        /* Your existing CSS styles here */
+
+        .featured-videos {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #000000;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #FFFFF;
+            color: #fff;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="file:///C:/Users/GIGABYTE/Desktop/web%20forr%20bus/images/bbr.png" alt="My YouTube Logo">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Subscriptions</a></li>
+            <li><a href="#">Library</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="intro">
+            <h1>Welcome to My YouTube</h1>
+            <p>Discover and share your favorite videos.</p>
+        </div>
+        <div class="featured-videos">
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+                <h2>Featured Video 1</h2>
+                <p>Description for Featured Video 1 goes here.</p>
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+                <h2>Featured Video 2</h2>
+                <p>Description for Featured Video 2 goes here.</p>
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+                <h2>Featured Video 3</h2>
+                <p>Description for Featured Video 3 goes here.</p>
+            </div>
+   
+    </div>
+</body>
+</html>
